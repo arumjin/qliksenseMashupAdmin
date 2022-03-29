@@ -1,5 +1,34 @@
 # qliksenseMashupAdmin
 
+## Functions
+### 1. System Links
+- hub
+- qmc
+- dev-hub
+- ![image](https://user-images.githubusercontent.com/7877793/160540567-3be52bc1-c937-48d0-b0e3-0bc60840efe3.png)
+
+### 2. Mashup Links
+- edit
+- mashup
+- ![image](https://user-images.githubusercontent.com/7877793/160540740-b1f16722-e69d-436d-a856-9abb80da591b.png)
+
+### 3. Stream List
+- app count
+- task status count
+- One Click App Export
+- ![image](https://user-images.githubusercontent.com/7877793/160541436-5d8c9f15-eabb-4805-be38-7b7313b0c286.png)
+
+### 4. App List
+- One Click App Export (selected Stream)
+- task status
+- ![image](https://user-images.githubusercontent.com/7877793/160541513-917d5785-4a7a-4bca-b5c9-021f8fae6986.png)
+
+
+## 5. Repository api
+![image](https://user-images.githubusercontent.com/7877793/160541608-ba3586a4-feb2-4de8-9a13-f34b44ca0894.png)
+
+
+
 ## Qlik Sense System Links page
 1. hub, qmc, dev-hub Links
 2. Mashup Listup and Links
