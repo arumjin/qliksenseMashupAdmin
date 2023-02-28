@@ -1,0 +1,15 @@
+{
+    "type": "mashup",
+    "name": "QlikAdminCustomHub",
+    "version": "1.0.0",
+    "description": "Qlik sense admin custom hub",
+    "homepage": "",
+    "author": "yong1124@gmail.com",
+    "preview": "img/qlik-logo-2x.png",
+    "keywords": "qlik-sense, mashup",
+    "license": "",
+    "repository": "",
+    "dependencies": {
+        "qlik-sense": ">=2.1.x"
+    }
+}

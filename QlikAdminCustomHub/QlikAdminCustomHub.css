@@ -1,0 +1,219 @@
+/**
+* set padding to make room for bootstrap menu
+*
+*/
+body {
+	padding-bottom: 30px;
+}
+a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+}
+table.systemlink th,  table.systemlink td {
+    text-align: center;
+	vertical-align: middle !important;
+}
+.mashupName {
+	text-align: left !important;
+}
+/*
+* need to set the height for objects
+* set top padding to make room for selection toolbar
+*/
+div.qvplaceholder {
+	padding: 30px 10px 10px 10px;
+	height: 500px;
+}
+
+.qvfilter{height: 35px;}
+
+.objvh, .qvplaceholder{
+	height: 45vh;
+}
+.vh60 { height: 60vh; }
+.vh65 { height: 65vh; }
+.vh70 { height: 70vh; }
+#streamlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#applist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.stream {
+    border: solid 1px #d3d3d3;
+	padding: 5px;
+}
+.streaminfo {
+    display: flex;
+    flex-direction: column;
+}
+.streamname {
+    white-space:nowrap;
+	font-weight: bolder;
+}
+.streamdetail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	font-size: x-small;
+}
+.appinfo {
+    display: grid;
+	position: relative;
+	border: solid 1px #e8eaed;
+	padding: 5px;
+	/*width: 205px;
+	height: 135px;*/
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.appinfo::before{
+        content: "";
+        opacity: 0.7;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: #fff;
+}
+.appname {
+	position: relative;
+	text-align: left;
+	padding-top: 5px;
+}
+.appdesc {
+    font-size: x-small;
+	position: relative;
+	text-align: left;
+	padding-right: 5px;
+}
+.taskerror {
+    color: rgb(213, 0, 0);
+	font-weight: bolder;
+	font-size: small;
+}
+.taskerrorborder {
+	border: 1px solid rgb(213, 0, 0);
+}
+.tasksuccess {
+    color: rgb(0,200,83);
+}
+.tasketc {
+    color: #ff9800;
+	font-weight: bolder;
+	font-size: small;
+}
+.taskothersborder {
+	border: 1px solid #ff9800;
+}
+
+.displaynone {
+	display: none !important;
+}
+.stream:nth-child(15n) {background-color: #FFEBEE;}
+.stream:nth-child(15n+1) {background-color: #EDE7F6;}
+.stream:nth-child(15n+2) {background-color: #E1F5FE;}
+.stream:nth-child(15n+3) {background-color: #E8F5E9;}
+.stream:nth-child(15n+4) {background-color: #FFFDE7;}
+.stream:nth-child(15n+5) {background-color: #FBE9E7;}
+.stream:nth-child(15n+6) {background-color: #FCE4EC;}
+.stream:nth-child(15n+7) {background-color: #E8EAF6;}
+.stream:nth-child(15n+8) {background-color: #E0F7FA;}
+.stream:nth-child(15n+9) {background-color: #F1F8E9;}
+.stream:nth-child(15n+10) {background-color: #FFF8E1;}
+.stream:nth-child(15n+11) {background-color: #EFEBE9;}
+.stream:nth-child(15n+12) {background-color: #F3E5F5;}
+.stream:nth-child(15n+13) {background-color: #E3F2FD;}
+.stream:nth-child(15n+14) {background-color: #E0F2F1;}
+
+#main {
+	width: 100%;
+	padding: 0 0 10px 0;
+	margin-bottom: 41px;
+}
+
+.image-header {
+	display: table;
+	position: relative;
+	margin-top: -20px;
+	width: 100%;
+	height: 30%;
+	background: url(leaf.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	z-index: -99;
+
+}
+
+.content-section-a {
+	background-color: #ECF0F1;
+}
+section {
+	padding-top: 10px;
+}
+.navbar {
+	margin-bottom: 0 !important;
+}
+
+.navbar-brand {
+	max-width: 345px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*
+ * Overrides Bootstrap navbar z-index to avoid conflict with selections bar
+ */
+.navbar-fixed-top {
+	position: relative;
+	z-index: 100;
+}
+
+.qcmd {
+	cursor: pointer;
+}
+
+#footer {
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+	color: #777;
+	text-align: center;
+	padding: 20px;
+	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 100;
+}
+#popup {
+	position: fixed;
+	/*background-color: #424242;*/
+	background: #52CC52;
+	color: #FFFFFF;
+	bottom: 15px;
+	right: 0;
+	margin: 10px;
+	border-radius: 5px;
+	z-index: 100;
+}
+#popup > div {
+	padding: 10px;
+}
+.borderShadow {
+	margin: 10px 0;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+	-moz-box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+	box-shadow: 0 0 16px -5px rgba(50, 50, 50, 0.52);
+}
