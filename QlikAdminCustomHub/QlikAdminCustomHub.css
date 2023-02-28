@@ -44,6 +44,10 @@ div.qvplaceholder {
     justify-content: flex-start;
 }
 
+.downloadStreamApps {
+	cursor: pointer;
+	color: red;
+}
 .stream {
     border: solid 1px #d3d3d3;
 	padding: 5px;
